@@ -1,0 +1,17 @@
+{
+    "projectName": "lambda1",
+    "username": "test-glrmxwrlvnde@example.com",
+    "id": "28013720-35d3-11e8-a1f5-635bb2eb949f",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://drive-java-3068-dev-ed.cs16.my.salesforce.com",
+    "workspace": "/Users/tempflip/mm",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

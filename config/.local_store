@@ -1,0 +1,50 @@
+{
+    "IntegrationService.cls": {
+        "id": "01pf0000000g7wHAAQ",
+        "name": "IntegrationService",
+        "createdDate": "2018-04-01T17:44:03.000+0000",
+        "createdById": "005f0000002MyQlAAK",
+        "namespacePrefix": null,
+        "lastModifiedById": "005f0000002MyQlAAK",
+        "lastModifiedDate": "2018-04-01T18:22:39.000+0000",
+        "fullName": "IntegrationService",
+        "fileName": "unpackaged/classes/IntegrationService.cls",
+        "createdByName": "User User",
+        "lastModifiedByName": "User User",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "LambdaService.cls": {
+        "id": "01pf0000000g7wMAAQ",
+        "name": "LambdaService",
+        "createdDate": "2018-04-01T17:47:53.000+0000",
+        "createdById": "005f0000002MyQlAAK",
+        "namespacePrefix": null,
+        "lastModifiedById": "005f0000002MyQlAAK",
+        "lastModifiedDate": "2018-04-01T18:20:20.000+0000",
+        "fullName": "LambdaService",
+        "fileName": "unpackaged/classes/LambdaService.cls",
+        "createdByName": "User User",
+        "lastModifiedByName": "User User",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Account.trigger": {
+        "id": "01qf00000009IJIAA2",
+        "name": "Account",
+        "createdDate": "2018-04-01T18:06:28.000+0000",
+        "createdById": "005f0000002MyQlAAK",
+        "namespacePrefix": null,
+        "lastModifiedById": "005f0000002MyQlAAK",
+        "lastModifiedDate": "2018-04-01T18:07:26.000+0000",
+        "fullName": "Account",
+        "fileName": "unpackaged/triggers/Account.trigger",
+        "createdByName": "User User",
+        "lastModifiedByName": "User User",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    }
+}

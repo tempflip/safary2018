@@ -1,0 +1,5 @@
+project:
+    name: lambda1
+    package:
+        name: lambda1
+        namespace: lambda1
