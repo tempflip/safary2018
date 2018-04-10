@@ -6,7 +6,13 @@ public with sharing class LambdaService {
 
 		Map<String, Object> recordMap =  new Map<String, Object>();
 		for (SObject so :sObjectList) {
-			recordMap.put(so.Id, so.getPopulatedFieldsAsMap());
+			Map<String, Object> objectFieldMap = so.getPopulatedFieldsAsMap();
+			Map<String, String> objectFieldMapInString = new Map<String, String>();
+			for (String fieldNameKey : objectFieldMap.keySet()) {
+				objectFieldMapInString.put(fieldNameKey, '' + objectFieldMap.get(fieldNameKey));
+			}
+
+			recordMap.put(so.Id, objectFieldMapInString);
 		}
 
 		Map<String, Object> body = new Map<String, Object>();
